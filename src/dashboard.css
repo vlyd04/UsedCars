@@ -1,0 +1,144 @@
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr; 
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+ }
+
+.car-card{
+  background-color: #ffffff;
+  border: 2px solid  #1c346c;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: auto;
+
+}
+
+.car-card img{
+  max-width: 90%;
+  height: auto;
+  border-radius: 2px;
+}
+.car-card p{
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin: 10px 20px;
+  padding: bottom;
+
+}
+.car-card:hover{
+  transform: scale(1.05);
+}
+
+.sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: fr;
+    padding-bottom: 20px;
+
+}
+
+.btn-check button{
+
+  top:50%;
+  background-color:#03035e;
+  color:white;
+  border-radius:5px; 
+  padding:5px;
+  margin-right: 20px;
+  width: 100px;
+  margin-left: 50px;
+
+}
+.btn-check button:hover{
+  background-color: lightgray;
+}
+
+.btn-check {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding-top: 50px;
+  width: 50%;
+  height: 40%;
+}
+
+.navbar {
+  background-color: #b1045a;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo img{
+  height: 80px;
+  border-radius:50%;
+}
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  margin-right: 70px;
+  color: #03035e;
+  font-weight: bold;
+}
+.navbar-links a{
+  text-decoration: none;
+}
+.cont{
+  background-color:white;
+}
+.btn-check input{
+  width: 50px;
+  position: relative;
+}
+.btn-check label{
+  color: #1c346c;
+}
+h2{
+  color: #1c346c;
+}
+h1{
+  font-size: 50px;
+}
+
+.upload-card{
+  display: grid;
+  border: 2px solid black;
+  width: 80%;
+}
+.upload-icon{
+  font-size: 70px;
+  text-align: center;
+  color: aqua;
+}
+/* .new{
+  display: grid;
+  max-width:50%;
+  height: 60%;
+  border:1px solid #0a0a23;
+
+} */
+.new input{
+  width: 100%;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+/* .upload-container{
+    display: grid;
+    width:50%;
+    grid-template-columns: 1fr;
+    gap: 10px 10px;
+
+  } */
+
+  .upload {  
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px 10px;
+    justify-content: stretch;
+    justify-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    width: 60%; 
+    height: 80%; 
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius:5px ;
+    
+  }
+
+  .upload input{
+    width: 100%;
+    color: #1c346c;
+  }
+  .upload label{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #1c346c;
+  }
+  h2{
+    color: #1c346c;
+    text-align: center;
+  }
+  .upload button{
+    background-color: #1c346c;
+    margin: 30px;
+    
+  }
+  .upload img{
+    width: 100%;
+  
+  }
+  
+  .upload button:hover{
+    background-color: #b1045a;
+  }
+  .up{
+    font-size: 100px;
+    margin-top: 30px;
+    padding-top: 20px;
+    color:#1c346c;
+  }
+  
+  
+
+  
